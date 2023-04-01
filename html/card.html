@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Seu cartão de Crédito aqui!</title>
+  <link rel="stylesheet" href="/css/card.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <span class="logo">
+        <img src="/img/mastercard.png" alt="">
+        <h5>Master Card</h5>
+      </span>
+      <img src="/img/chipcard.png" alt="" class="chip">
+    </header>
+    <div class="card-details">
+      <form id="card-form">
+        <div class="input-container">
+          <label for="numb">Número do Cartão</label>
+          <input type="text" id="numb" name="numb" placeholder="0000 0000 0000 0000">
+        </div>
+        <div class="input-container">
+          <label for="name">Nome no Cartão</label>
+          <input type="text" id="name" name="name" placeholder="Seu nome completo">
+        </div>
+        <div class="input-container">
+          <label for="expiry">Validade</label>
+          <input type="text" id="expiry" name="expiry" placeholder="MM/AA">
+        </div>
+        <div class="input-container">
+          <label for="cvc">CVC</label>
+          <input type="text" id="cvc" name="cvc" placeholder="000">
+        </div>
+        <button type="submit">Comprar</button>
+      </form>
+    </div>
+  </div>
+  <script src="/javascript/card.js"></script>
+</body>
+</html>
